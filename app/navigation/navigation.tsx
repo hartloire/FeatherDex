@@ -18,7 +18,7 @@ import DetailsScreen from "../screens/DetailsScreen";
 export const SPLASH_SCREEN = "SPLASH";
 export const HOME_SCREEN_ROUTE  = "Home";
 export const DETAILS_SCREEN_ROUTE = "Details";
-export const SIGN_IN_SCREEN_ROUTE = "SignIn"
+export const SIGN_IN_SCREEN_ROUTE = "SignIn";
 export const SIGN_UP_SCREEN_ROUTE = "SignUp";
 export const RESET_PASSWORD_SCREEN_ROUTE = "ResetPassword";
 
@@ -27,6 +27,7 @@ export const RESET_PASSWORD_SCREEN_ROUTE = "ResetPassword";
 export type AppStackParamList = {
     [HOME_SCREEN_ROUTE]: undefined;
     [DETAILS_SCREEN_ROUTE]: undefined;
+    [SIGN_IN_SCREEN_ROUTE]: undefined;
 }
 
 export type AppStackRoutesType = RouteConfig<

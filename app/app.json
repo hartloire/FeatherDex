@@ -26,6 +26,10 @@
         "backgroundColor": "#FFFFFF"
       }
     },
+    "plugins" :[
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     }

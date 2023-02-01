@@ -4,7 +4,7 @@ import { ApplicationProvider, Layout, Text } from '@ui-kitten/components';
 import { default as theme } from './theme.json';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import AppStack from './src/navigation/app-routes';
+import AppStack from './navigation/app-routes';
 
 
 const Stack = createNativeStackNavigator();
@@ -13,7 +13,7 @@ function App() {
   return (
     <NavigationContainer> 
       {
-      <ApplicationProvider {...eva} theme={{...eva.light, ...theme}}>
+      <ApplicationProvider {...eva} theme={{...eva.dark, ...theme}}>
         <AppStack/>
       </ApplicationProvider>
       }
